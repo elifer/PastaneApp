@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements CustomOnClickList
 
     RecyclerView recyclerView;
     CakeListAdapter cakeListAdapter;
+    CakeListAdapter denemeAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
