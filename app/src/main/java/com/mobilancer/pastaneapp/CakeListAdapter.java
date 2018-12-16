@@ -37,6 +37,7 @@ public class CakeListAdapter extends RecyclerView.Adapter<CakeListAdapter.CakeVi
             @Override
             public void onClick(View v) {
                 Log.d("elif", "clicked " + cake.getName());
+                Log.d("elif", "clicked " + cake.getImageUrl());
                 if (customOnClickListener != null){
                     customOnClickListener.onItemClicked(cake);
                 }
